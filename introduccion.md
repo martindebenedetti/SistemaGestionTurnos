@@ -19,15 +19,15 @@ Proceso de ocultar la implementacion interna de un objeto y exponer solo las int
 
 - ### Abstraccion:
 
-Permite definir la estructura básica de un conjunto de objetos sin exponer su implementación interna.
+Se centra en ocultar los complejos detalles de implementación y mostrar sólo las características esenciales de un objeto. Ayuda a reducir la complejidad y el esfuerzo de programación al proporcionar una separación clara entre las propiedades abstractas y los detalles de implementación.
 
-**Ejemplo:** En un sistema de control de dispositivos electrónicos, cada dispositivo tiene funcionalidades comunes como encender() y apagar(), pero su funcionamiento interno varía.
+**Ejemplo:** En un sistema de transporte, puede tener una clase abstracta llamada Vehiculo con métodos como acelerar() o frenar(). Cada tipo de vehículo (auto, bicicleta, camión) los implementa de forma diferente.
 
 - ### Herencia:
 
-La herencia permite que una clase hija herede atributos y métodos de una clase padre.
+La herencia permite que una clase (llamada subclase o clase derivada) herede atributos y métodos de otra clase (llamada superclase o clase base). Esto facilita la reutilización de código, la organización jerárquica y la extensibilidad del software.
 
-**Ejemplo:** Diferentes figuras geométricas pueden calcular su área, pero cada una tiene una fórmula distinta.
+**Ejemplo:** Creo una clase CuentaBancaria con métodos como depositar, retirar, consultarSaldo. Luego creo otras clases por ejemplo una clase CuentaAhorro y otra CuentaCorriente, ambas heredan de CuentaBancaria.
 
 - ### Polimorfismo
   El polimorfismo permite que un mismo método tenga diferentes comportamientos según el objeto que lo implemente.
@@ -61,6 +61,7 @@ La herencia permite que una clase hija herede atributos y métodos de una clase 
    - **Flujo principal:**
      - El recepcionista accede al módulo registrar médico.
      - Ingresa nombre, matrícula profesional, especialidad, horario de atención y datos de contacto.
+     - Validar si ya existe un medico con ese numero de matricula.
      - Guardar registro y se muestra que el medico se registro correctamente.
    - **Precondiciones:**
      - El médico no debe estar registrado previamente.
@@ -77,11 +78,15 @@ La herencia permite que una clase hija herede atributos y métodos de una clase 
    - **Flujo principal:**
      - El recepcionista accede al módulo registrar paciente.
      - Ingresa nombre completo, número de documento,fecha de nacimiento, información de contacto (teléfono, correo electrónico).
+     - Validar si ya existe un paciente con ese dni.
      - Guardar registro y se muestra que el paciente se registro correctamente.
    - **Precondiciones:**
      - El paciente no debe estar registrado previamente.
    - **Postcondiciones:**
      - El paciente queda registrado en la base de datos.
+
+---
+
 3. **Caso de uso: Asignar un turno médico**
    - **Actores involucrados:**
      - Recepcionista.
@@ -89,13 +94,18 @@ La herencia permite que una clase hija herede atributos y métodos de una clase 
    - **Descripcion:**
      - Permite asignar un turno a un paciente con un médico disponible en un horario específico.
    - **Flujo principal:**
-     - Seleccionar paciente y seleccionar medico.
+     - Seleccionar especialidad y medico.
+     - Verificar turnos disponibles
      - Seleccionar fecha y hora del turno disponibles.
+     - Seleecionar a que paciente se le va a asignar el turno.
      - Confirmar turno y enviar notificación del turno asignado.
    - **Precondiciones:**
      - Disponibilidad del medico para esa fecha y hora disponible.
    - **Postcondiciones:**
      - Registracion del turno en el sistema y enviar notificaciones.
+
+---
+
 4. **Caso de uso: Modificar o cancelar un turno**
    - **Actores involucrados:**
      - Recepcionista.
@@ -110,6 +120,9 @@ La herencia permite que una clase hija herede atributos y métodos de una clase 
      - Al ingresar al historial de turnos debe dar la opcion de modificar o cancelar un turno activo.
    - **Postcondiciones:**
      - Se debe guardar el cambio y volver a enviar una notificacion, en caso de cancelar turno enviar notificacion de que se canceló el turno y liberar la agenda del medico.
+
+---
+
 5. **Caso de uso: Consultar historial de turnos**
    - **Actores involucrados:**
      - Recepcionista.
@@ -120,7 +133,8 @@ La herencia permite que una clase hija herede atributos y métodos de una clase 
    - **Flujo principal:**
      - Ingresar con el perfil de paciente o medico.
      - AL ingresar se ver ver la lista de turnos asignados a un paciente o a un medico.
-     - Permitir la busqueda por dia, semana o mes.
+     - Poder busar el historial de turnos por especialdiad, año, mes y año.
+     - Poder consultar turnos atendidos, cancelados y pendientes.
    - **Precondiciones:**
      - Se debe saber el dni del paciente o nombre del profecional
    - **Postcondiciones:**
@@ -129,4 +143,4 @@ La herencia permite que una clase hija herede atributos y métodos de una clase 
 ## :small_blue_diamond:Boceto inicial del diseño de clases: :camera:
 
 ![Boceto inicial del diseño de clases](/img/Boceto.png)  
-:link:[Boceto](https://www.dropbox.com/scl/fi/6lh6i9t0b0cgelh0kj9m9/Boceto.png?rlkey=sblcngkz2o0rxz4g4whks6trs&st=08qgkenn&dl=0)
+:link:[Boceto](https://drive.google.com/file/d/1Txn-z6h3VqrNYwTZxxt7SXemLTp5q5gl/view?usp=drive_link)
