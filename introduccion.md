@@ -131,7 +131,7 @@ La herencia permite que una clase (llamada subclase o clase derivada) herede atr
    - **Descripcion:**
      - Permite visualizar los turnos previos y futuros de un paciente, junto con su estado y detalles.
    - **Flujo principal:**
-     - Ingresar con el perfil de paciente o medico.
+     - Ingresar con el perfil de paciente o medico o recepcionista.
      - AL ingresar se ver ver la lista de turnos asignados a un paciente o a un medico.
      - Poder busar el historial de turnos por especialdiad, año, mes y año.
      - Poder consultar turnos atendidos, cancelados y pendientes.

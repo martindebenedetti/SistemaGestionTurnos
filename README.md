@@ -17,3 +17,5 @@ El sistema permitirá registrar pacientes y médicos, asignar turnos según la d
 ## Diagramas y Diseños
 
 - [Anexos](anexos.md)
+- [Diagramas UML](diagramasUML.md)
+- [Herramientas Agiles](herramientas_agile.md)
