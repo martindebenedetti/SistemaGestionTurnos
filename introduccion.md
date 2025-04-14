@@ -143,4 +143,4 @@ La herencia permite que una clase (llamada subclase o clase derivada) herede atr
 ## :small_blue_diamond:Boceto inicial del diseño de clases: :camera:
 
 ![Boceto inicial del diseño de clases](/img/Boceto.png)  
-:link:[Boceto](https://drive.google.com/file/d/1cP8p2tOxGcsvUdFArKP-YEUMQvr9uO5U/view?usp=drive_link)
+:link:[Boceto](https://drive.google.com/file/d/1oPHlWslLdlcUK7GHh-VJxI2GxdJouXnQ/view?usp=drive_link)
