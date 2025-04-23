@@ -8,7 +8,7 @@ El principio ayuda a utilizar la herencia de forma correcta.
 
 # Motivación
 
-En el sistema de gestión de turnos, si en el futuro quisiermos añadir la posibilidad de subclases de turno, como por ejemplo turnoOnline o sobreTurno. En el caso de un turnoOnline debe agregarse los datos de la plataforma a usar, y para el caso del sobreturno no se debe dar la posibilidad de modificar, pero si de cancelar. Esto podria generar conflictos en la herencia.
+En el sistema de gestión de turnos, si en el futuro quisiéramos añadir la posibilidad de subclases de turno, como por ejemplo turnoOnline o sobreTurno. En el caso de un turnoOnline debe agregarse los datos de la plataforma a usar, y para el caso del sobreturno no se debe dar la posibilidad de modificar, pero sí de cancelar. Esto podría generar conflictos en la herencia.
 
 # Estructura de Clases
 

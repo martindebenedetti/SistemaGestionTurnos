@@ -8,8 +8,7 @@ El principio recomienda introducir interfaces o abstracciones como intermediaria
 
 # Motivación
 
-En el sistema de gestión de turnos, la clase recepcionista depende directamente de la clase turnos, es decir, estaría dependiendo de implementaciones concretas de bajo nivel.
-Para resolverlo se creara una interfase de abstraccion para manejar los turnos, de este modo no importa como se va a implementar internamente los turnos
+En el sistema de gestión de turnos, la clase recepcionista depende directamente de la clase turnos, es decir, estaría dependiendo de implementaciones concretas de bajo nivel. Para resolverlo se creará una interfase de abstracción para manejar los turnos, de este modo no importa cómo se va a implementar internamente los turnos.
 
 # Estructura de Clases
 
