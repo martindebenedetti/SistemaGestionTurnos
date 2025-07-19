@@ -24,4 +24,4 @@ Para resolver esta limitación, implementaremos el patrón de diseño creacional
 
 ![Patrón de Diseño creacional - Factory Method](/img/Patrón%20de%20Diseño%20creacional%20-%20Factory%20Method.png)
 
-- [Imagen](https://drive.google.com/file/d/14GMj18glsOoZcH-HMeeO9bpCoCzu2zNw/view?usp=drive_link)
+- [Imagen](https://drive.google.com/file/d/173DsgAe91mdrC44OE0088eROQMNcp1sq/view?usp=drive_link)

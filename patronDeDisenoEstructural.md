@@ -24,4 +24,4 @@ El patrón de diseño estructural Adapter resuelve este problema al proporcionar
 
 ![Patrón de Diseño estructural - Adapter](/img/Patrón%20de%20Diseño%20estructural%20-%20Adapter.png)
 
-- [Imagen](https://drive.google.com/file/d/1m3CTPnmZj3eqUK2e34qGqebISA0N0qZe/view?usp=drive_link)
+- [Imagen](https://drive.google.com/file/d/1qSN12HhqI2KNGC3_CWNUF1e2rUG1eJGv/view?usp=drive_link)

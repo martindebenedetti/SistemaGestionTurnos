@@ -31,4 +31,4 @@ Toda esta lógica podría estar directamente implementadas en verificarDisponibi
 
 ![Patrón de Diseño estructural - Strategy](/img/Patrón%20de%20Diseño%20de%20comportamiento%20-%20Strategy.png)
 
-- [Imagen](https://drive.google.com/file/d/1XaGs-_94qt29ifqcpnF2-2m47WVOEAOD/view?usp=drive_link)
+- [Imagen](https://drive.google.com/file/d/1Zl7HdZupN08-SYv2DqiBWIdlHXxIUguo/view?usp=drive_link)
