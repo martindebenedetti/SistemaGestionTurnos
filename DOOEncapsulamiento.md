@@ -11,7 +11,7 @@ El encapsulamiento implica ocultar los atributos internos de una clase, exponien
 
 Encapsulamiento se demuestra al mantener los datos sensibles privados y permitir su acceso/modificación sólo mediante métodos públicos.
 
-![Herencia](/img/DOOEncapsulamiento.png)
+![Encapsulamiento](/img/DOOEncapsulamiento.png)
 
 - [Imagen](https://drive.google.com/file/d/16dFcXYDUgxTCkK3NoTwxJERw9iIU2WwP/view?usp=drive_link)
 
